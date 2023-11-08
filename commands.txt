@@ -1,0 +1,18 @@
+npm init -y
+npm i dotenv express cookie-parser mongoose bcryptjs jsonwebtoken
+
+const express = require('express')-> this is common js
+import express  from 'express'-> this is module js to do this write "type":"module", in package.json below description
+
+npm i -D nodemon ====>as dev dependency!
+
+issay bar bar cd folder nhi karna parega or ma
+"scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"---->npm run server se backend start :)
+  },
+
+
+jab bhi ap module use karrahe ho tou import mai .js lagana like
+import { authUser } from "../controllers/userController.js";
+
